@@ -15,7 +15,7 @@
 3. Операционную системы выбирать Ubuntu-20.04
 4. Панель Управления не понадобится
 5. Все остальное оставить По умолчанию. Далее подтвердить и оплатить заказ. Обработка заказа обычно происходит в течение 30 мин
-6. На почту, указанныю при оформлении заказа придет письмо с информацией для подключения к серверу. Нужны будут следующие данные
+6. На почту, указанную при оформлении заказа придет письмо с информацией для подключения к серверу. Нужны будут следующие данные
 
 ![подключение к серверу](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/a8b5ade4-fd91-4ed7-9e5f-e0e8041a6542)
 
@@ -58,7 +58,7 @@
 3. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
 >*curl https://raw.githubusercontent.com/complexorganizations/wireguard-manager/main/wireguard-manager.sh --create-dirs -o /usr/local/bin/wireguard-manager.sh*
 
-br>Нажать **Enter**
+<br>Нажать **Enter**
 
 4. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
 >*chmod +x /usr/local/bin/wireguard-manager.sh*
@@ -98,6 +98,12 @@ br>Нажать **Enter**
 Затем перекинуть полученный файл на компьютер.
 
 2. Скачать приложение [WireGuard](https://download.wireguard.com/windows-client/wireguard-installer.exe) для Windows <br> и загрузить в него **распакованный** конфиг файл.
+
+![_15](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/cb88cd9f-aeab-4487-a069-6917301c04cf)
+
+3. Поздравляю, вы настроили себе собственный выход из Матрицы. В другую Матрицу, попросторнее))
+
+![image (2)](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/47bddff9-0d8c-463a-891a-0aba9e979f86)
 
 
 
