@@ -10,7 +10,7 @@
 
 2. В настройках заказа необходимо прописать доменное имя. Не важно какое, важен именно формат как на скриншоте.
 
-![имя домена как на скрине](https://github.com/nboravlev/private_vpn_with_WireGuard/commit/40ac8c53c0527b15f4a99a49a12730532f5b6677)
+![имя домена как на скрине](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/de2f0f52-2857-46c9-a061-27369d6eca7d)
 
 3. Операционную системы выбирать Ubuntu-20.04
 4. Панель Управления не понадобится
@@ -36,6 +36,7 @@
 ![_6](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/c5140812-0311-4fe3-8527-a0c13707e12d)
 
 6. В следующем окне ввести пароль из письма. Обратите внимание, что когда вы вводите пароль в консоль, он не отображается по соображениям безопасности. Пароль можно ввести через **Копировать** и **Вставить**. Он все еще не будет отображаться. Нажать **Enter**<br>
+
 ![_8](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/609f70b3-2c7d-4776-b9a1-f5c96bfbaeeb)
 
 8. При удачном входе на консоли отобразится что-то вроде
@@ -45,18 +46,34 @@
 ## Фаза 3 - Установить [WireGuard](https://www.wireguard.com/)
 
 1. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
->*sudo apt update*<br>Нажать **Enter**
+>*sudo apt update*
+<br>Нажать **Enter**
 
 2. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
->*sudo apt install curl*<br>Нажать **Enter** <br>ввести **Y** для подтверждения установки.
+>*sudo apt install curl*
+<br>Нажать **Enter** <br>ввести **Y** для подтверждения установки.
 
 3. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
->*curl https://raw.githubusercontent.com/complexorganizations/wireguard-manager/main/wireguard-manager.sh --create-dirs -o /usr/local/bin/wireguard-manager.sh*<br>Нажать **Enter**
+>*curl https://raw.githubusercontent.com/complexorganizations/wireguard-manager/main/wireguard-manager.sh --create-dirs -o /usr/local/bin/wireguard-manager.sh*
+<br>Нажать **Enter**
 
 4. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
->*chmod +x /usr/local/bin/wireguard-manager.sh*<br>Нажать **Enter**
+>*chmod +x /usr/local/bin/wireguard-manager.sh*
+<br>Нажать **Enter**
 
 5. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
->*bash /usr/local/bin/wireguard-manager.sh*<br>Нажать **Enter**
+>*bash /usr/local/bin/wireguard-manager.sh*
+<br>Нажать **Enter**
 
 6. Далее идут настройки из 15 пунктов везде оставить рекомендованное значение **1** и нажать **Enter**
+
+
+7. По окончании установки вы увидите QR-код для подключения. <br> Фактически вы подняли собственный ВПН-сервер. Осталось настроть подключение на смартфоне и ноутбуке.
+
+![_11](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/4e75a68a-bbcc-4617-9fdf-f209e0d1d3cd)
+
+## Фаза 4 - настройка подключения в смартфоне.
+
+1. Для установки на смартфоне необходимо скачать и установить приложение **WireGuard** c **AppStore**
+
+![_11](https://github.com/nboravlev/private_vpn_with_WireGuard/assets/120275954/28383353-6d3d-4d94-94e8-23c552e9a16c)
