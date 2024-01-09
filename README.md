@@ -49,7 +49,7 @@
 
 >*sudo apt update*<br>
 >*sudo apt upgrade*<br>
->*sudo apt install curl
+>*sudo apt install curl*
 
 <br>Нажать **Enter** <br>ввести **Y** для подтверждения установки.
 
