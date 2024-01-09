@@ -47,9 +47,9 @@
 
 1. Вввести команду (**Ctrl+С** + вставить путем нажатия правой кнопки мышки в черный экран где курсор):<br>
 
->*sudo apt update*
-*sudo apt upgrade*
-*sudo apt install curl
+>*sudo apt update*<br>
+>*sudo apt upgrade*<br>
+>*sudo apt install curl
 
 <br>Нажать **Enter** <br>ввести **Y** для подтверждения установки.
 
